@@ -3,9 +3,10 @@
 for linux, sudo is a prerequisite
 ```
 //linux :at the pathtoproject/jnetpcap/linux/jnetpcap-1.4.r1425
-//windows: at the pathtoproject/jnetpcap/win/jnetpcap-1.4.r1425
+//windows run in cmd.exe: at the pathtoproject/jnetpcap/win/jnetpcap-1.4.r1425
 mvn install:install-file -Dfile=jnetpcap.jar -DgroupId=org.jnetpcap -DartifactId=jnetpcap -Dversion=1.4.1 -Dpackaging=jar
 ```
+the file pom.xml must be on the current direcotry.
 
 ## Run
 ### IntelliJ IDEA
@@ -47,3 +48,8 @@ At the project root
 mvn package
 ```
 the jar file will be in the pathtoproject/CICFlowMeter/target
+
+## Example Output
+
+![image](https://github.com/user-attachments/assets/6586fb82-9818-458a-88e5-8e4ff836822d)
+
